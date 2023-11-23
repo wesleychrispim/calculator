@@ -1,0 +1,22 @@
+name: E2E Tests
+
+on:
+  push:
+    branches:
+      - master  # Substitua "main" pelo nome do seu branch principal, se for diferente
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        npm install
+
+    - name: Run E2E Tests
+      run: |
+        npx cypress run --config video=false
