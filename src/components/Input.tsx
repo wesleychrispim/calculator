@@ -1,4 +1,4 @@
-// src/components/Input.tsx
+
 import React, { useState, ChangeEvent } from "react";
 
 export interface InputProps {

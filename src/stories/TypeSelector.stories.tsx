@@ -2,7 +2,7 @@
 import TypeSelector from '../components/TypeSelector';
 
 
-// TypeSelector.stories.tsx
+
 import React from 'react';
 
 

@@ -1,4 +1,4 @@
-// Output.tsx
+
 import React from 'react';
 
 const Output = ({ value }: { value: number }) => {

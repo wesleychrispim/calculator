@@ -3,7 +3,7 @@ name: E2E Tests
 on:
   push:
     branches:
-      - master  # Substitua "main" pelo nome do seu branch principal, se for diferente
+      - master 
 
 jobs:
   e2e-tests:

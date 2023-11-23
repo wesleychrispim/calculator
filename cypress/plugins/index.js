@@ -1,4 +1,4 @@
-// cypress/plugins/index.js
+
 import 'cypress-audit/commands';
 
 
